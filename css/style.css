@@ -1,10 +1,17 @@
 * {
-  font-family: "Gill Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background: #efefef;
   line-height: 1.5;
+  background: #efefef;
+  font-family: "Gill Sans", sans-serif;
+}
+
+ul {
+  list-style: none;
 }
 
 .title,
@@ -23,14 +30,10 @@ img {
   margin: auto;
 }
 
-.recipe-list {
-  list-style: none;
-  font-size: 30px;
-}
-
 li a {
   text-decoration: none;
-  color: inherit
+  color: inherit;
+  font-size: 30px;
 }
 
 li a:hover {
